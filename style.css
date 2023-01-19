@@ -11,7 +11,7 @@ body{
     font-size: 20px;
 }
 .header{
-    margin:100px 50px;
+    margin:30px  50px 0;
     display: inline-block;
 
 }
@@ -21,7 +21,6 @@ body{
 .discricao{
     float: right;
     width: 40%;
-    margin-right: 40px;
     margin: 100px 50px;
     line-height: 28px;
     letter-spacing: -1px;
@@ -29,13 +28,20 @@ body{
 .imagem-patrik{
     float: left;
     width: 30%;
-    margin: 100px 50px;
+    margin: 100px  50px 50px;
 }
 .image-ptk{
     width: 300px;
     border-radius: 50%;
     padding: 3px;
-    
+    background-color:#627792;
+
+}
+.final{
+    width: 300px;
+}
+.habilidades{
+    margin: 30px 50px;
 }
 
 strong{ 
@@ -47,21 +53,13 @@ a{
 }
 ul{
 list-style-type: none;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-
-
-}
-.list{
-display: flex;
-flex-direction: column;
-align-items: center;
-
 }
 li{
 font-weight: 500;
 letter-spacing: -1;
 margin-bottom: 10px;
-
+margin-left: 30px;
+}
+.list-impar{
+    color: #f28482;
 }

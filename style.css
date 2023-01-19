@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #d8e2dc;
+    color: #778da9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.header{
+    margin:30px  50px 0;
+    display: inline-block;
+
+}
+.title{
+    text-align: center;
+}
+.discricao{
+    float: right;
+    width: 40%;
+    margin: 100px 50px;
+    line-height: 28px;
+    letter-spacing: -1px;
+}
+.imagem-patrik{
+    float: left;
+    width: 30%;
+    margin: 100px  50px 50px;
+}
+.image-ptk{
+    width: 300px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color:#627792;
+
+}
+.final{
+    width: 300px;
+}
+.habilidades{
+    margin: 30px 50px;
+}
+
+strong{ 
+    color: #627792;
+}
+a{
+    text-decoration: none;
+    color: #5fd149;
+}
+ul{
+list-style-type: none;
+}
+li{
+font-weight: 500;
+letter-spacing: -1;
+margin-bottom: 10px;
+margin-left: 30px;
+}
+.list-impar{
+    color: #f28482;
+}
